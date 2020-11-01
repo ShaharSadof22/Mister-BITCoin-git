@@ -1,0 +1,32 @@
+<div class="contact-details" *ngIf="contact">
+    <button (click)="onBack()" class="navigate-btn flex">
+        Back
+        <img src="https://res.cloudinary.com/cloudinary-img/image/upload/v1603308292/Mister-BITCoin/back_pcy5rn.png" />
+    </button>
+    <p><span>Name: </span>{{contact.name}}</p>
+    <p><span>Email: </span>{{contact.email}}</p>
+    <p><span>Phone: </span>{{contact.phone}}</p>
+
+    <transfer-fund [contact]="contact"></transfer-fund>
+    <moves-list [showMovesFrom]="showMovesFrom" ></moves-list>
+    
+    <div class="flex space-between">
+        <a [routerLink]="['/contact/edit',contact._id]">
+            <button class="navigate-btn flex">
+                Edit
+                <img
+                    src="https://res.cloudinary.com/cloudinary-img/image/upload/v1603369787/Mister-BITCoin/edit_zksrcy.png" />
+            </button>
+        </a>
+        <div (click)="onRemoveContact()">
+            <button class="navigate-btn flex">
+                Delete
+                <img
+                    src="https://res.cloudinary.com/cloudinary-img/image/upload/v1603547071/Mister-BITCoin/delete_bkdwzu.png" />
+            </button>
+        </div>
+    </div>
+
+    
+    
+</div>

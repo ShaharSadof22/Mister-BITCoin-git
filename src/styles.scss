@@ -1,0 +1,123 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+
+/* HELPERS */
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+   align-items: center;
+}
+.space-between{
+   justify-content: space-between;
+}
+.space-evenly{
+   justify-content: space-evenly;
+}
+.self-center{
+   align-self: center;
+}
+.self-start{
+   align-self: start;
+}
+.margin-0-a{
+   margin: 0 auto;
+}
+
+
+
+
+
+
+.grid {
+    display:grid;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.flex-start{
+    justify-content: start;
+}
+.mrg-top{
+    margin-top: 60px;
+}
+.mrg-left{
+    margin-inline-start: 30px;
+}
+.mrg-bottom{
+    margin-bottom:30px ;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+}
+.fiftyPw{
+    width: 50%;
+}
+.padd30{
+    padding:30px;
+}
+.padd50{
+    padding:50px;
+}
+.contain{
+    object-fit:contain;
+}
+.thirdyPw{
+    width: 30%;
+}
+.seventyPw{
+    width: 30%;
+}
+.fiftyPh{
+    height: 50%;
+}
+.ninetyVh{
+    height: 90vh;
+}
+.twentyPw{
+    width:20%;
+}
+.eightyPw{
+    width:80%;
+}
+.hundredPw{
+    width: 100%;
+}
+.hundredPh{
+    height: 100%;
+}
+.bgc-red{
+    background-color: #bf1313d4;
+}
+.bgc-white{
+    background-color: white;
+}
+.line-through{
+    text-decoration: line-through ;
+}
+.text-dec-none{
+    text-decoration:none;
+}
+

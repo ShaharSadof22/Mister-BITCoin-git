@@ -1,0 +1,14 @@
+<div class="transfer-wrapper">
+    <p>Transfer coins to {{name}}</p>
+    <div>
+        <label for="amount"> Amount: </label>
+        <input type="number" [(ngModel)]="amount" id="amount" />
+        <button (click)="onTransfer()">Transfer</button>
+
+        <p [ngClass]="[alertMsg ? 'warning alert' : 'hide']">{{alertMsg}}</p>
+
+        <p [ngClass]="[successMsg ? 'success alert' : 'hide']">{{successMsg}}</p>
+
+    </div>
+   
+</div>

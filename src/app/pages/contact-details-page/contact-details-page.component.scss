@@ -1,0 +1,31 @@
+.contact-details{
+    width: 700px;
+    background-color:#e6e6e6;
+    border: 1px solid rgba(90, 0, 0, 0.418);
+    margin: 20px auto;
+    padding: 20px 15px;
+    border-radius: 15px;
+    
+    span{
+        color: rgb(97, 97, 97);
+    }
+
+    .navigate-btn{
+        background-color: #7fffd400;
+        float: right;
+        padding: 7px 14px 0 5px;
+        border: none;
+        border-radius: 20px;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #c5c5c5;
+
+        }
+        img{
+            width: 30px;
+            padding-left:10px;
+        }
+    }
+}

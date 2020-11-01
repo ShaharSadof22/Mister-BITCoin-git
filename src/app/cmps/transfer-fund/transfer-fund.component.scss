@@ -1,0 +1,36 @@
+
+.transfer-wrapper{
+    background-color:#8BB7F0;
+    width: 100%;
+    // height: 60px;
+    border-radius: 5px 5px 0 0 ;
+    border: 1px solid #408cf0;
+    padding: 10px 10px;
+
+    p{
+        margin: 0;
+    }
+    input{
+        background-color:#8BB7F0;
+        border: none
+    }
+
+    .alert{
+        display: block;
+        padding: 9px;
+        margin-top: 11px;
+    }
+    
+    .warning{
+        color: #650000;
+        background-color: #ff6a6a;
+    }
+    .success{
+        color: #004b00;
+        background-color: #f7f4d6;
+    }
+    .hide{
+        display: none;
+    }
+}
+

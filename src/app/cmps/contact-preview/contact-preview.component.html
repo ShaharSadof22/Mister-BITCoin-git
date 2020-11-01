@@ -1,0 +1,10 @@
+<div class="contact-preview flex align-center space-between">
+    <a [routerLink]="['/contact',contact._id]" class="flex align-center cursor">
+        <img src="https://robohash.org/{{contact._id}}" />
+        <p>{{contact.name}}</p>
+    </a>
+
+    <a [routerLink]="['/contact/edit',contact._id]" class="cursor">
+        <img src="https://res.cloudinary.com/cloudinary-img/image/upload/v1603308292/Mister-BITCoin/plus_pkoytf.png" />
+    </a>
+</div>

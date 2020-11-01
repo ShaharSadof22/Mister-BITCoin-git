@@ -1,0 +1,8 @@
+<div *ngIf="currUser?.moves.length > 0" class="move-list">
+    <p ><span class="name-header">Your moves </span ></p>
+    <div *ngFor="let move of currUser.moves" [move]="move" class="move-preview">
+        <p>At: {{move.at | date:'short'}}</p>
+        <p>To: {{move.to}}</p>
+        <p>Amount: {{move.amount}} coins</p>
+    </div>
+</div>

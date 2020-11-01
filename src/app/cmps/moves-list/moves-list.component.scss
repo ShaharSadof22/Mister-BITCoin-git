@@ -1,0 +1,20 @@
+.move-list{
+    background-color:#f1f1f1;
+    padding: 15px 10px;
+    border-radius: 0 0 5px 5px;
+
+    .name-header{
+        color: rgb(70, 70, 70);
+    }
+
+    .move-preview{
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        margin: 5px;
+        border-radius: 5px ;
+
+        p{
+            margin: 0;
+        }
+    }
+}

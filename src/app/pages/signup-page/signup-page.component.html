@@ -1,0 +1,16 @@
+<div>
+    <form [formGroup]="name" (ngSubmit)="onSubmit(name.value)">
+
+        <img src="https://res.cloudinary.com/cloudinary-img/image/upload/v1603553972/Mister-BITCoin/bitcoin_alpuqh.png" alt="img">
+
+        <h4>Please enter your name</h4>
+
+        <div class="input-wrapper">
+            <label for="name">Name</label>
+            <input id="name" type="text" formControlName="name">
+        </div>
+
+        <button class="button" type="submit">Sigh Up</button>
+    </form>
+
+</div>

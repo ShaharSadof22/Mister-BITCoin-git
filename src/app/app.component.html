@@ -1,0 +1,30 @@
+<div class="app">
+
+  <div class="app-header-wrapper">
+    <h2 class="app-header">Mr.BITCoin</h2>
+
+    <nav>
+      <a routerLink='' routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+        <img src="https://res.cloudinary.com/cloudinary-img/image/upload/v1603308292/Mister-BITCoin/home_zoh0lb.png">
+        <span>Home</span>
+      </a>
+      <a routerLink='contact' routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+        <img src="https://res.cloudinary.com/cloudinary-img/image/upload/v1603308292/Mister-BITCoin/users_ywjcmm.png">
+        <span>Contact</span>
+      </a>
+      <a routerLink='statistic' routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+        <img
+          src="https://res.cloudinary.com/cloudinary-img/image/upload/v1603308292/Mister-BITCoin/increase_nq7pu6.png">
+        <span>Statistics</span>
+      </a>
+    </nav>
+    
+    <a routerLink='signup'>
+      <img class="sighup-img"
+        src="https://res.cloudinary.com/cloudinary-img/image/upload/v1603548952/Mister-BITCoin/1627729_ofy3yr.svg">
+    </a>
+  </div>
+
+  <router-outlet></router-outlet>
+
+</div>

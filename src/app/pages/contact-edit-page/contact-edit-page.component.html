@@ -1,0 +1,29 @@
+<div>
+  <form [formGroup]="formData" (ngSubmit)="onSubmit(formData.value)">
+
+    <div class="input-wrapper">
+      <label for="name">
+        Name
+      </label>
+      <input id="name" type="text" formControlName="name">
+    </div>
+
+    <div class="input-wrapper">
+      <label for="email">
+        Email
+      </label>
+      <input id="email" type="text" formControlName="email">
+    </div>
+
+    <div class="input-wrapper">
+      <label for="phone">
+        Phone
+      </label>
+      <input id="phone" type="text" formControlName="phone">
+    </div>
+
+      <button class="button" type="submit">Save</button>
+
+    </form>
+
+</div>

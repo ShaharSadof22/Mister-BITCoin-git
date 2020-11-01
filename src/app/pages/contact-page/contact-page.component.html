@@ -1,0 +1,9 @@
+<div class="contact-page">
+    <div class="flex justify-center">
+        <a [routerLink]="['/contact/edit',null]" class="add-contact-btn cursor">
+            <img src="https://res.cloudinary.com/cloudinary-img/image/upload/v1603308292/Mister-BITCoin/plus_pkoytf.png" />
+        </a>
+        <contact-filter (onFilter)="onFilterHandler($event)"></contact-filter>
+    </div>
+    <contact-list [contacts]="contacts" ></contact-list>
+</div>

@@ -1,0 +1,4 @@
+<div class="input-filter flex" >
+    <input type="text" [(ngModel)]="filterBy.name" placeholder="Search">
+    <button (click)="onFilter.emit(filterBy)">Filter</button>
+</div>
